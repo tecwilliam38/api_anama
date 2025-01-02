@@ -12,4 +12,3 @@ app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
   });
 
-//   8BmrFlSjViE4oS3Z pass

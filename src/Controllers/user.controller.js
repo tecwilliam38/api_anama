@@ -4,7 +4,7 @@ async function Register(req, res) {
 
     const { name, email, password } = req.body;
     
-    const user = await ServiceUser.Inserir(name, email, password);
+    const user = await ServiceUser.Register(name, email, password);
 
     res.status(201).json(user);
 }

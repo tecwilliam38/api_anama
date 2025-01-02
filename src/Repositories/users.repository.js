@@ -1,4 +1,4 @@
-import pool from "../Db/postgres.db.js";
+import pool from "../DataBase/postgres.db.js"
 
 async function Register(name, email, password) {
     async function verfiyEmail() {
