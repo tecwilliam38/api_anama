@@ -1,6 +1,7 @@
 import { Router } from "express";
 import jwt from "../token.js";
 import ControllerUser from "./Controllers/user.controller.js"
+import ControllerAdmin from "./Controllers/admin.controller.js"
 
 const router = Router();
 
@@ -11,6 +12,9 @@ router.get("/users/profile", jwt.ValidateToken, ControllerUser.Profile);
 
 
 // Admin
+router.post("/admin/register", ControllerAdmin.Register);
+router.post("/admin/login", ControllerUser.Login);
+router.get("/admin/profile", jwt.ValidateToken, ControllerUser.Profile);
 
 // Posts
 
