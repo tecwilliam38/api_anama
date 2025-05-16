@@ -1,7 +1,7 @@
 {
   "name": "api_flavia",
   "version": "1.0.0",
-  "description": "Api da rede br Anama",
+  "description": "Api de empregos Flávia Cristina",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
