@@ -1,7 +1,7 @@
 {
   "name": "api_anama",
   "version": "1.0.0",
-  "description": "Api de Anama",
+  "description": "Api da rede br Anama",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
