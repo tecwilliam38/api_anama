@@ -1,7 +1,7 @@
 {
-  "name": "api_anama",
+  "name": "api_flavia",
   "version": "1.0.0",
-  "description": "Api da rede br Anama",
+  "description": "Api flavia",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
